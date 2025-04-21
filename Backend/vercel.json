@@ -1,5 +1,6 @@
 {
     "version": 2,
+    "outputDirectory": "public",
     "framework": null,
     "functions": {
       "api/index.php": {
@@ -12,6 +13,8 @@
         "dest": "/api/index.php"
       }
     ],
+    "buildCommand": "composer install",
+    "devCommand": null,
     "env": {
       "APP_ENV": "production",
       "APP_DEBUG": "false",
